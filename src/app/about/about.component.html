@@ -1,0 +1,83 @@
+<app-header></app-header>
+<!-- Card -->
+<div class="container">
+    <div class="header">
+        <br>
+        <br>
+    <h1 class="text-center title" style="font-weight: bolder;">Lux Tech Academy</h1>
+</div>
+<div clas="message">
+<p class="para" style="text-align:justify; padding-right: 80px; padding-left: 80px;"> 
+<br>
+   {{about_content}}
+ <br>
+ Be certified today and get free Lux Tech  academy Certificate and Swags pack today!   
+ <br>
+ </p>
+</div>
+
+<div class=" text-center admins"> 
+    <hr> <br> 
+  <h2> Founder and Co-Founder </h2>
+</div>
+
+
+<div class="container text-center">
+<!-- Card -->
+<div class="card testimonial-card" style="margin: 2%;">
+  
+
+    <!-- Background color -->
+    <div class="card-up indigo lighten-1"></div>
+  
+    <!-- Avatar -->
+    <div class="avatar mx-auto white">
+      <img [src]="'assets/img/about/my_profile.jpg'"  height="200px" width="200px" class="rounded-circle"
+        alt="grayhat">
+    </div>
+  
+    <!-- Content -->
+    <div class="card-body"  >
+    
+      <h4 class="card-title">Harun Mbaabu</h4>
+      <hr>
+      <!-- Quotation -->
+      <p [ngStyle]="{'text-align': 'justify'}"><i class="fas fa-quote-left"></i>Creating Lux Tech Academy has really helped me grow skillwise and network i am happy to see passionate developer
+                                          learn and change there life
+      </p> 
+      <button  mat-flat-button color="primary"><a style="color:#fff; text-decoration: none;" href="http://harunmbaabu.co.ke/">Resume</a></button>
+      <br>
+    </div>
+  
+  </div>
+  <div class="card testimonial-card" style="margin: 2%; ">
+
+      <!-- Background color -->
+      <div class="card-up indigo lighten-1" ></div>
+    
+      <!-- Avatar -->
+      <div class="avatar mx-auto white">
+        <img [src]="'assets/img/about/emma.jpg'" height="200px" width="200px" class="rounded-circle"
+          alt="sallie">
+      </div>
+    
+      <!-- Content -->
+      <div class="card-body">
+        <!-- Name -->
+        <h4 class="card-title"> Emma Kawira</h4>
+        <hr>
+        <!-- Quotation -->
+        <p [ngStyle]="{'text-align': 'justify'}"><i class="fas fa-quote-left"></i> Being a developer is very amazing  being the co founder and a fellow frontend developer
+           at lux has really help me grown my programming skills.
+        </p>
+         <button  mat-flat-button color="primary"><a style="color:#fff; text-decoration: none;" href="https://emmawilson.netlify.app/">Resume</a></button>
+      </div>
+    
+    </div>
+  <!-- Card -->
+</div>
+
+
+  </div>
+  <!-- Card -->
+  <app-footer></app-footer>

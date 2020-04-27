@@ -1,0 +1,57 @@
+<app-header></app-header>
+
+<div style="background: url('assets/img/slider/image.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;" >
+<div class="container" >
+        <div class="row d-flex justify-content-center align-items-center" >
+          <div class="col-md-7" [ngStyle] = "{'background':'#fff'}">
+            <div class="form d-flex justify-content-between"></div>
+              <form action="" class="my-form">
+                <h4 class="font-weight-bold mb-3">Register Now</h4>
+                <!--User Name -->
+                <div class="md-form md-outline label">
+                        <i class="fas fa-user prefix"></i>
+                        <input type="email" id="name" class="form-control">
+                        <label for="name"> Enter Full Name</label>
+                      </div>
+               <!--Mobile Number -->
+                <div class="md-form md-outline label">
+                        <i class="fas fa-phone prefix"></i>
+                        <label for="phone">Enter mobile Number</label>
+                        <input type="email" id="phone" class="form-control">
+                       
+                      </div>
+                <!-- Email address -->
+                <div class="md-form md-outline label">
+                  <i class="fas fa-envelope prefix"></i>
+                  <input type="email" id="emaihandle" class="form-control">
+                  <label for="emaihandle">Email address</label>
+                </div>
+                <!-- Password -->
+                <div class="md-form md-outline label">
+                  <i class="fas fa-lock prefix"></i>
+                  <input type="password" id="userpassword" class="form-control">
+                  <label for="userpassword">Enter Password</label>
+                </div>
+                <!-- Comfirm Password -->
+                <div class="md-form md-outline label">
+                        <i class="fas fa-lock prefix"></i>
+                        <input type="password" id="comfirmpassword" class="form-control">
+                        <label for="comfirmpassword">Comfirm Password</label>
+                </div>
+                <div class="float-right">
+                      <button class="btn btn-rounded" type="button">Sign Up</button>
+                      <br>
+                </div> 
+                <br> 
+                   
+              </form>
+            </div>
+            </div>
+        </div>
+</div> 
+
+
+<app-footer></app-footer>    
