@@ -1,5 +1,5 @@
 {
-  "name": "mdb-angular-free",
+  "name": "luxpwa",
   "version": "9.0.1",
   "scripts": {
     "ng": "ng",
@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~9.0.5",
     "@angular/platform-browser-dynamic": "~9.0.5",
     "@angular/router": "~9.0.5",
+    "@angular/service-worker": "~9.0.5",
     "@fortawesome/fontawesome-free": "^5.6.3",
     "angular-bootstrap-md": "9.0.1",
     "chart.js": "^2.5.0",
@@ -50,5 +51,14 @@
     "tslint": "~5.15.0",
     "typescript": "~3.7.5"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git"
+   
+  },
+  "author": "",
+  
+  "homepage": "",
+  "description": ""
 }

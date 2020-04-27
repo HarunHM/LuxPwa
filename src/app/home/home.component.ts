@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {PwaService} from 'ngsw-worker'
 
 @Component({
   selector: 'app-home',
@@ -27,7 +28,6 @@ export class HomeComponent implements OnInit {
    a PWA as such: "A Progressive Web App uses modern web capabilities to deliver an app-like user experience.". Enroll and learn  More about these apps in Depth `;
 
   constructor() {
-
     this.learn  = `You can enroll any programming and technology course for free, We offer  beginner  to advanced courses`;                                            
      
 
@@ -44,9 +44,8 @@ export class HomeComponent implements OnInit {
     this.core_values = `In pursuing of our vision and mission, we are  guided by the following
                                                 core values; `;
    }
-
-
+  
   ngOnInit(): void {
+  
   }
-
 }
