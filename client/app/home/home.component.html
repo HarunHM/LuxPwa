@@ -1,0 +1,278 @@
+<!--=====START SCROLL TOP BUTTON======-->
+<a class="scrollToTop" href="#">
+  <i class="fa fa-angle-up"></i>
+</a>
+<!-- END SCROLL TOP BUTTON -->
+<!-- page header section -->
+<app-header></app-header>
+<!-- Start Slider -->
+<section id="mu-slider">
+  <!-- Start single slider item -->
+  <div class="mu-slider-single">
+    <div class="mu-slider-img">
+      <figure>
+        <img class="barn" [src]="'assets/img/slider/image.png'" alt="image slider one">
+      </figure>
+    </div>
+    <div class="mu-slider-content">
+      <h4>Welcome To Lux Tech Academy</h4>
+      <span></span>
+      <p>Making World A Better And A Digital Globe
+      </p>
+      <p> It’s not going to be easy, but it’s going
+        to be worth it.</p>
+      <p>
+        Learn using Project-based approach
+      </p>
+      <button btn btn-primary color="primary">
+        <a href="#" class="mu-read-more-btn">Read More</a>
+      </button>
+    </div>
+  </div>
+  <!-- Start single slider item -->
+</section>
+
+<!-- End Slider -->
+<!-- Start service  -->
+<section id="mu-service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="mu-service-area">
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <span class="fa fa-book"></span>
+            <h3>Learn Now</h3>
+            <p [ngStyle]="{'text-align': 'justify'}">{{learn}}</p>
+          </div>
+          <!-- Start single service -->
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <span class="fa fa-users"></span>
+            <h3>Contact Us</h3>
+            <p [ngStyle]="{'text-align': 'justify'}">
+              {{contact}}
+            </p>
+          </div>
+          <!-- Start single service -->
+          <!-- Start single service -->
+          <div class="mu-service-single">
+            <span class="fa fa-table"></span>
+            <h3>Hire Us</h3>
+            <p [ngStyle]="{'text-align': 'justify'}">
+              {{hire}}</p>
+          </div>
+          <!-- Start single service -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End service  -->
+<!-- Start about us -->
+<section id="mu-about-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-about-us-area">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="mu-about-us-left">
+                <!-- Start Title -->
+                <div class="mu-title">
+                  <h2>About Us</h2>
+                </div>
+                <!-- End Title -->
+                <p [ngStyle]="{'text-align': 'justify'}">{{About}} </p>
+                <p [ngStyle]="{'text-align': 'justify'}"> {{core_values}}</p>
+                <ul *ngFor="let core of cores">
+                  <li>{{core}}</li>
+                </ul>
+
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="mu-about-us-right">
+                <!-- About Us Image -->
+                <img [ngStyle]="{'height': '120%','width':'100%'}" class="barn" [src]="'assets/img/about-us.jpg'"
+                  alt="Abotut us image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End about us -->
+
+<!-- Start latest course section -->
+<section id="mu-latest-courses">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="mu-latest-courses-area">
+          <!-- Start Title -->
+          <div class="mu-title">
+            <h2>Our Latest Courses</h2>
+          </div>
+          <!-- End Title -->
+          <!-- Start latest course content -->
+          <div id="mu-latest-course-slide" class="mu-latest-courses-content">
+            <!-- =====WEB DEVELOPMENT COURSE BARNER======== -->
+            <div id="courseinline" class="col-lg-4 col-md-4 col-xs-12">
+              <div class="mu-latest-course-single">
+                <div class="mu-latest-course-single-content">
+                  <h4><a >Progressive web application.</a></h4>
+                  <p [ngStyle]="{'text-align': 'justify'}">
+                    {{Progressive}}
+
+                  </p>
+                  <div class="mu-latest-course-single-contbottom">
+                    <a class="mu-course-details" >{{Read}}</a>
+                    <span class="mu-course-price">$0.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====PYTHON COURSE BARNER======== -->
+            <div id="courseinline" class="col-lg-4 col-md-4 col-xs-12">
+              <div class="mu-latest-course-single">
+                <div class="mu-latest-course-single-content">
+                  <h4><a href="#">Introduction to Programming</a></h4>
+                  <p [ngStyle]="{'text-align': 'justify'}">
+                    {{Programming}}
+                  </p>
+                  <div class="mu-latest-course-single-contbottom">
+                    <a class="mu-course-details" href="#">{{Read}}</a>
+                    <span class="mu-course-price" href="#">$0.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====DATA BASE COURSE BARNER======== -->
+            <!-- =====DATA BASE COURSE BARNER======== -->
+            <div id="courseinline" class="col-lg-4 col-md-4 col-xs-12">
+              <div class="mu-latest-course-single">
+                <div class="mu-latest-course-single-content">
+                   <h4><a >Data Science Tutorial</a></h4>
+                 
+                  <p [ngStyle]="{'text-align': 'justify'}">
+                    {{Datascience}} </p>
+                  <div class="mu-latest-course-single-contbottom">
+                    <a class="mu-course-details" >{{Read}}</a>
+                    <span class="mu-course-price" >$0.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- latest courses end here -->
+
+
+<!-- Start programming languages here -->
+<section id="mu-from-blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-from-blog-area">
+          <!-- start title -->
+          <div class="mu-title">
+            <h2> Top Programming Languages.</h2>
+          </div>
+          <!-- end title -->
+          <!-- start from blog content   -->
+          <div class="mu-from-blog-content"> 
+            <div class="row">
+              <div class="col-md-4 col-sm-4" [ngStyle]="{
+                                'border': '1px solid #eee',
+                                'border-radius': '10px', 
+                                'box-sizing': 'border-box',
+                                'background': '#fff'}">
+                <article class="mu-blog-single-item">
+                  <figure>
+                    <figcaption>
+                      <h3><a href="#">Python</a></h3>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-blog-description">
+                    <p style="text-align: justify;">
+                      {{python}}
+                    </p>
+                    <br>
+                    <button routerLink="/Python" mat-flat-button color="primary">{{Read}}</button>
+                    <br>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-4 col-sm-4" 
+                  [ngStyle]="{
+                              'border': '1px solid #eee',
+                              'border-radius': '10px', 
+                              'box-sizing': 'border-box',
+                              'background': '#fff'}">
+
+
+                <article class="mu-blog-single-item">
+                  <figure>
+                    <figcaption>
+                      <h3><a href="#">JavaScript.</a></h3>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-blog-description">
+                    <p [ngStyle]="{'text-align': 'justify'}">
+
+                      {{JavaScript}}
+
+                    </p>
+                    <br>
+                    <button routerLink="/JavaScript" mat-flat-button color="primary">{{Read}}</button>
+                    <br>
+                  </div>
+                </article>
+              </div>
+
+
+
+
+
+              <div class="col-md-4 col-sm-4"
+                  [ngStyle]="{
+                              'border': '1px solid #eee',
+                              'border-radius': '10px', 
+                              'box-sizing': 'border-box',
+                              'background': '#fff'}">
+                <article class="mu-blog-single-item">
+                  <figure>
+                    <figcaption>
+                      <h3><a href="#"> TypeScript.</a></h3>
+                    </figcaption>
+                  </figure>
+                  <div class="mu-blog-description">
+                    <p [ngStyle]="{'text-align': 'justify'}">
+                      {{TypeScript}}
+                    </p>
+                    <br>
+                    <button routerLink="/TypeScript" mat-flat-button color="primary">{{Read}}</button>
+                    <br>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <!-- end from blog content   -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End from blog -->
+
+<!--- Footer Component of the webpage-->
+<app-footer></app-footer>

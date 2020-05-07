@@ -1,0 +1,104 @@
+<!-- Div to for position: fixed; --navabra --> 
+    <div class="navagationbar">
+      <header id="mu-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+              <div class="mu-header-area">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                    <div class="mu-header-top-left">
+                      <div class="mu-top-email">
+                        <i class="fa fa-envelope"></i>
+                      <span>{{email}}</span>
+                      </div>
+                      <div class="mu-top-phone">
+                        <i class="fa fa-phone"></i>
+                      <span>{{phone}}</span>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="mu-header-top-right">
+                  <nav>
+                    <ul class="mu-top-social-nav">
+
+                      
+                      <li><a href="#"><span class="fab fa-facebook"></span></a></li>
+                      <li><a href="#"><span class="fab fa-twitter"></span></a></li> 
+                      <li><a href="#"><span class="fab fa-linkedin"></span></a></li>
+                      <li><a href="#"><span class="fab fa-github"></span></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End header  --> 
+  <!-- Start menu  --> 
+  <section id="mu-menu">
+    <nav class="navbar expand  justify-content-end" role="navigation">  
+     <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark bg-info  justify-content-end" [containerInside]="false"    
+                 style="width:100%; padding: 0px;">
+    <!-- Navbar brand -->
+     <mdb-navbar-brand><a class="navbar-brand" href="#"> <i class="fa fa-home" style="font-size: 30px; font-weight: bold;">  </i>
+               <span [ngStyle] = "{'font-size' : '24px', 'font-weight': 'bold', 'padding' : '10px',  'margin-top' : '10px'}">
+                 {{logo}}</span></a>
+    </mdb-navbar-brand>
+  <!-- Collapsible content --> 
+    <links class="justify-content-end">
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto float-xs-left" [ngStyle]= "{'font-size' : '14px', 'padding' : '10px', 'font-weight' : 'bold'}">
+      <li class="nav-item active">
+        <a  routerLink="" routerLinkActive="active current" class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="home" size="lg"></mdb-icon>
+          Home<span class="sr-only">(current)</span></a>
+      </li>
+      <!-- Programs in the navbar -->
+      <li class="nav-item">
+          <a routerLink="/program" routerLinkActive="active current" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="clone" size="lg"></mdb-icon>
+            Programs<span class="caret"></span></a>
+        </li>
+    
+     
+       <!-- Blog navbar -->
+       <li class="nav-item">
+          <a routerLink="/blog" routerLinkActive="active current" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="edit" size="lg"></mdb-icon>Blog</a>
+        </li>
+         <!-- About navbar -->
+      <li class="nav-item">
+          <a routerLink="/about" routerLinkActive="active current" class="nav-link waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="user" size="lg"></mdb-icon>About</a>
+        </li>  
+         <!-- write a bog Blog in the navbar -->
+      <li class="nav-item">
+        <a routerLink="/ebooks" routerLinkActive="active current" class="nav-link waves-light" mdbWavesEffect>
+          <mdb-icon fas icon="book" size="lg"></mdb-icon> E-books </a>
+      </li>
+       
+    </ul>
+    <!-- Links -->
+
+    <!-- Search form -->
+    <form class="form-inline waves-light" mdbWavesEffect>
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      </div>
+    </form>
+    
+    </links>
+    <!-- Collapsible content -->
+      <!-- Register navbar -->
+    
+
+</mdb-navbar>
+<!--/.Navbar-->
+    </nav>
+  </section>
+  </div>

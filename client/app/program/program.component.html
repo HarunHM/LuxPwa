@@ -1,0 +1,255 @@
+<app-header></app-header>
+
+<!--START SCROLL TOP BUTTON -->
+<a class="scrollToTop" href="#">
+  <i class="fa fa-angle-up"></i>
+</a>
+<!-- END SCROLL TOP BUTTON -->
+<!-- Page breadcrumb -->
+<section id="mu-page-breadcrumb" class="w3-center bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-page-breadcrumb-area">
+                    <br>
+                    <h2>Courses</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="mu-course-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mu-course-content-area">
+          <div class="row">
+            <div class="col-md-9">
+              <!-- start course content container -->
+              <div class="mu-course-container">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="mu-latest-course-single">
+                      <figure class="mu-latest-course-img">
+                        <a ><img [src]="'assets/img/courses/js.jpg'" alt="img" height="190px" width="100%"></a>
+                        <hr>
+                        <figcaption class="mu-latest-course-imgcaption">
+                          <h3 > JavaScript programming Language</h3>
+                        </figcaption>
+                      </figure>
+                      <hr>
+                      <div class="mu-latest-course-single-content">
+                        <p [ngStyle]="{'text-align': 'justify', 'padding-left':'8px','padding-right':'8px'}">
+                          It is a client-side scripting language, which means the source code is processed by the
+                          client's browser rather than on the server, but currently Nodejs supports JavaScript on the
+                          server.....
+                        </p>
+
+                        <div class="mu-latest-course-single-contbottom" [ngStyle]="{'padding-left':'35%'}">
+                            <button mat-flat-button color="primary"> <a routerLink="/JavaScript"> Read More </a></button>
+                         
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="mu-latest-course-single">
+                      <figure class="mu-latest-course-img">
+                        <a ><img [src]="'assets/img/courses/ts.png'" alt="img" height="190px" width="100%"></a>
+                        <hr>
+                        <figcaption class="mu-latest-course-imgcaption">
+                          <h3 >TypeScript programming Language</h3>
+                        </figcaption>
+                      </figure>
+                      <hr>
+                      <div class="mu-latest-course-single-content">
+                        <p [ngStyle]="{'text-align': 'justify', 'padding-left':'8px','padding-right':'8px'}">
+                          TypeScript is a superset of JavaScript meaning that it extends JavaScript with extra
+                          functionality which is not present in the current version of JavaScript supported by most
+                          browsers.....
+
+                        </p>
+                        <div class="mu-latest-course-single-contbottom" [ngStyle]="{'padding-left':'35%'}">
+                          <button mat-flat-button color="primary"> <a routerLink="/TypeScript"> Read More </a></button>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="mu-latest-course-single">
+                      <figure class="mu-latest-course-img">
+                        <a><img src="assets/img/courses/python.jpg" alt="img" height="190px" width="100%"></a>
+                        <hr>
+                        <figcaption class="mu-latest-course-imgcaption">
+                          <h3 >Python Programming Language</h3>
+                        </figcaption>
+                      </figure>
+                      <hr>
+                      <div class="mu-latest-course-single-content">
+                        <p [ngStyle]="{'text-align': 'justify', 'padding-left':'8px','padding-right':'8px'}">
+
+                          Python is a free and open source high level programming language which is interplated. Created by Guido van Rossum and first released in 1991,  which
+                          supports object oreinted, procedural oriented, functional and imperative oriented programming
+                          paradigm.....
+
+                        </p>
+                        <div class="mu-latest-course-single-contbottom" [ngStyle]="{'padding-left':'35%'}">
+                          <button mat-flat-button color="primary"> <a routerLink="/Python"> Read More </a></button>
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="mu-latest-course-single">
+
+                      <figure class="mu-latest-course-img">
+                        <a ><img src="assets/img/courses/angular.jpeg" alt="img" height="190px"
+                            width="100%"></a>
+                        <hr>
+                        <figcaption class="mu-latest-course-imgcaption">
+                          <h3 > Angular Web Framework </h3>
+                        </figcaption>
+                      </figure>
+                      <hr>
+                      <div class="mu-latest-course-single-content">
+
+                        <p [ngStyle]="{'text-align': 'justify', 'padding-left':'8px','padding-right':'8px'}">
+                            AngularJS used to be the “golden child” among JavaScript frameworks, as it was initially
+                            introduced by Google corporation in 2012. It was built with the Model-View-Controller
+                            and described as what HTML should have been if tit was developed to build websites.....
+
+                        </p>
+                        <div class="mu-latest-course-single-contbottom" [ngStyle]="{'padding-left':'35%'}">
+                            <button mat-flat-button color="primary"><a routerLink="/Angular"> Read More </a></button>
+                         
+
+                        </div>
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <!-- end course content container -->
+              <!-- start course pagination -->
+              <div class="mu-pagination">
+                <nav>
+                  <ul class="pagination">
+                    <li>
+                      <a aria-label="Previous">
+                        <span class="fa fa-angle-left"></span> Prev </a>
+                    </li>
+                    <li><a>1</a></li>
+                    <li><a>2</a></li>
+                    <li>
+                      <a aria-label="Next">
+                        Next <span class="fa fa-angle-right"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end course pagination -->
+            </div>
+            <div class="col-md-3">
+              <!-- start sidebar -->
+              <aside class="mu-sidebar">
+                <!-- start single sidebar -->
+                <div class="mu-single-sidebar">
+                  <h3>Blog Tags</h3>
+                  <ul class="mu-sidebar-catg" [ngStyle]="{
+                                'style-type':'none',
+                                'text-decoration': 'none'
+                                               }">
+                    <li><a >Flask</a></li>
+                    <li><a >Django</a></li>
+                    <li><a >ReactJS</a></li>
+                    <li><a >Angular</a></li>
+                    <li><a >Data Science</a></li>
+                  </ul>
+                </div>
+                <!-- end single sidebar -->
+                <!-- start single sidebar -->
+                <div class="mu-single-sidebar">
+                  <h3>Popular Course</h3>
+                  <div class="mu-sidebar-popular-courses">
+                    <hr>
+                    <div class="media">
+                      <div class="media-left">
+                        <a>
+                          <img class="media-object" src="assets/img/courses/sci.png" alt="img">
+                        </a>
+                      </div>
+
+                      <div class="media-body">
+                        <h4 class="media-heading"><a href="#">Data Science</a></h4>
+
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                      <div class="media-left">
+                        <a >
+                          <img class="media-object" src="assets/img/courses/web1.png" alt="img">
+                        </a>
+                      </div>
+                      <hr>
+                      <hr>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a >Web Development</a></h4>
+
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object" src="assets/img/courses/frm.png" alt="img">
+                        </a>
+                      </div>
+                      <hr>
+                      <div class="media-body">
+                        <h4 class="media-heading"><a >Web Frameworks</a></h4>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end single sidebar -->
+                <!-- start single sidebar -->
+                <div class="mu-single-sidebar">
+                  <h3>Archives</h3>
+                  <ul class="mu-sidebar-catg mu-sidebar-archives">
+                    <li><a >Git </a></li>
+                    <li><a > ES6</a></li>
+                    <li><a >MERN </a></li>
+
+                  </ul>
+                </div>
+                <!-- end single sidebar -->
+                <!-- start single sidebar -->
+                <div class="mu-single-sidebar">
+                  <h3>Tags Cloud</h3>
+                  <div class="tag-cloud">
+                    <a > Artificial Intelligence</a>
+                    <a >Web Design</a>
+
+                  </div>
+                </div>
+                <!-- end single sidebar -->
+              </aside>
+              <!-- / end sidebar -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<app-footer></app-footer>
